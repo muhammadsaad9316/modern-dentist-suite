@@ -14,7 +14,7 @@ export function ServicesGrid() {
     const t = useTranslations('Services');
 
     return (
-        <section className="py-12 lg:py-24 bg-white">
+        <section className="py-12 lg:py-24 bg-white below-fold-section">
             <Container>
                 <ScrollReveal className="text-center mb-16 max-w-2xl mx-auto">
                     <Heading2>{t('title')}</Heading2>

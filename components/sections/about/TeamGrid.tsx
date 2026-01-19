@@ -26,6 +26,7 @@ export function TeamGrid() {
                                     fill
                                     className="object-cover transition-transform group-hover:scale-105"
                                     sizes="(max-width: 768px) 100vw, 33vw"
+                                    quality={75}
                                 />
                             </div>
                             <h3 className="text-lg font-bold text-primary">{member.name}</h3>

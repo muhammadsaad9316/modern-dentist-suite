@@ -26,6 +26,7 @@ export function DoctorHighlight() {
                                 fill
                                 className="object-cover object-top"
                                 sizes="(max-width: 768px) 100vw, 50vw"
+                                quality={75}
                             />
                         </div>
                         {/* Experience Badge */}

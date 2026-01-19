@@ -2,6 +2,7 @@
 
 import { motion, useInView, UseInViewOptions, Variant, Variants } from "framer-motion";
 import { useRef } from "react";
+import { useAnimationSettings } from "@/lib/hooks/useAnimationSettings";
 
 interface ScrollRevealProps {
     children: React.ReactNode;
@@ -20,12 +21,22 @@ export const ScrollReveal = ({
     mode = "fade-up",
     delay = 0,
     duration = 0.5,
-    viewport = { once: true, margin: "-100px" },
+    viewport = { once: true, margin: "-50px", amount: 0.2 },
     className,
     staggerChildren
 }: ScrollRevealProps) => {
     const ref = useRef(null);
     const isInView = useInView(ref, viewport);
+    const { shouldAnimate } = useAnimationSettings();
+
+    // If animations are disabled, we want to show content immediately without motion
+    if (!shouldAnimate) {
+        return (
+            <div className={className} style={{ width }}>
+                {children}
+            </div>
+        );
+    }
 
     const variants: Variants = {
         hidden: {

@@ -6,6 +6,7 @@ import { Music, Wind, Hand, Coffee, Moon, Heart } from "lucide-react";
 import { useTranslations } from 'next-intl';
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
+import { useAnimationSettings } from "@/lib/hooks/useAnimationSettings";
 
 const COMFORT_FEATURES = [
     { id: 'wind', icon: Wind },
@@ -18,6 +19,7 @@ const COMFORT_FEATURES = [
 
 export function AnxietyRelief() {
     const t = useTranslations('AnxietyRelief');
+    const { shouldAnimate } = useAnimationSettings();
 
     return (
         <section className="py-20 bg-blue-50/50">
@@ -64,13 +66,13 @@ export function AnxietyRelief() {
                                 )}
                             >
                                 <motion.div
-                                    animate={{ scale: [1, 1.1, 1] }}
-                                    transition={{
+                                    animate={shouldAnimate ? { scale: [1, 1.1, 1] } : {}}
+                                    transition={shouldAnimate ? {
                                         duration: 4,
                                         repeat: Infinity,
                                         ease: "easeInOut",
                                         delay: Math.random() * 2 // Randomize phase for organic feel
-                                    }}
+                                    } : { duration: 0 }}
                                     className="inline-block"
                                 >
                                     <feature.icon className={cn(

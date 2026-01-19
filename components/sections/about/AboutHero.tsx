@@ -17,6 +17,8 @@ export function AboutHero() {
                     fill
                     className="object-cover"
                     priority
+                    quality={75}
+                    sizes="100vw"
                 />
             </div>
             {/* Gradient Overlay */}

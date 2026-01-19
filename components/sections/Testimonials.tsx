@@ -12,7 +12,7 @@ export function Testimonials() {
     const t = useTranslations('Testimonials');
 
     return (
-        <section className="py-24 bg-gradient-to-b from-white to-background-subtle relative overflow-hidden">
+        <section className="py-24 bg-gradient-to-b from-white to-background-subtle relative overflow-hidden below-fold-section">
             {/* Decorative blob for glass effect */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-blue-100/40 rounded-full blur-3xl -z-10" />
 

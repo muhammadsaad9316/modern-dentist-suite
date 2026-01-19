@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Premium Dental Clinic Platform
 
-## Getting Started
+A high-conversion, modern dental practice website built with **Next.js 16**, **TypeScript**, and **Tailwind CSS v4**. This project is designed with trust psychology, anxiety relief, and frictionless booking as core principles.
 
-First, run the development server:
+## 🚀 Key Features
+
+- **Trust-First Design**: Clean, medical-grade aesthetics following the `/1-dentist-site-design` philosophy.
+- **Multilingual Support**: Fully localized in English and German using `next-intl`.
+- **Dynamic Animations**: Smooth, premium user experience powered by **Framer Motion**.
+- **Anxiety Relief Focus**: Content and layout optimized to make patients feel safe and comfortable.
+- **Service Showcases**: Dedicated sections for aesthetics, hygiene, and implants.
+- **Mobile Responsive**: Perfectly optimized for all devices.
+
+## 🛠️ Technology Stack
+
+- **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Internationalization**: [next-intl](https://next-intl-docs.vercel.app/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+
+## 🏁 Getting Started
+
+First, install the dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `app/[locale]/`: Main page routes and localization handling.
+- `components/`: Reusable UI components (Hero, Testimonials, Service sections).
+- `messages/`: Translation files (JSON) for English and German.
+- `public/`: High-quality assets and brand imagery.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+*Built with ❤️ for dental professionals.*
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

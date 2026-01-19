@@ -10,9 +10,11 @@ import { Calendar, Phone, Star } from "lucide-react";
 import Image from "next/image";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from 'next-intl';
+import { useAnimationSettings } from "@/lib/hooks/useAnimationSettings";
 
 export function Hero() {
     const t = useTranslations('Hero');
+    const { shouldAnimate } = useAnimationSettings();
 
     // Inside Hero component
     const ref = useRef(null);
@@ -21,41 +23,46 @@ export function Hero() {
         offset: ["start start", "end start"]
     });
 
+    // Only apply parallax on desktop/when animation is enabled
+    // We can't conditionally call hooks, but we can conditionally use their results or pass disabled config
+    // For simplicity, we'll keep the hooks running (low cost if transform is not used) but disable the application in style
     const y = useTransform(scrollYProgress, [0, 1], ["0%", "20%"]);
     const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
+
+    const parallaxStyle = shouldAnimate ? { y, opacity } : {};
 
     return (
         <section ref={ref} className="relative overflow-hidden bg-gradient-to-b from-background-subtle to-background pb-16 pt-6 lg:pt-12">
             {/* Background Decoration - Responsive sizing */}
             {/* Background Decoration - Animated Blobs */}
             <motion.div
-                animate={{
+                animate={shouldAnimate ? {
                     scale: [1, 1.2, 1],
                     rotate: [0, 10, 0],
                     x: [0, 30, 0]
-                }}
-                transition={{
+                } : {}}
+                transition={shouldAnimate ? {
                     duration: 15,
                     repeat: Infinity,
                     repeatType: "reverse",
                     ease: "easeInOut"
-                }}
-                className="absolute top-0 right-0 -z-10 h-[300px] w-[300px] md:h-[500px] md:w-[500px] lg:h-[600px] lg:w-[600px] bg-blue-100/60 rounded-full blur-3xl opacity-60 translate-x-1/3 -translate-y-1/4"
+                } : { duration: 0 }}
+                className="absolute top-0 right-0 -z-10 h-[300px] w-[300px] md:h-[500px] md:w-[500px] lg:h-[600px] lg:w-[600px] bg-blue-100/60 rounded-full md:blur-3xl blur-xl opacity-60 translate-x-1/3 -translate-y-1/4"
             />
             <motion.div
-                animate={{
+                animate={shouldAnimate ? {
                     scale: [1, 1.3, 1],
                     x: [0, -20, 0],
                     y: [0, 20, 0]
-                }}
-                transition={{
+                } : {}}
+                transition={shouldAnimate ? {
                     duration: 12,
                     repeat: Infinity,
                     repeatType: "reverse",
                     ease: "easeInOut",
                     delay: 2
-                }}
-                className="absolute bottom-0 left-0 -z-10 h-[200px] w-[200px] md:h-[400px] md:w-[400px] bg-accent/20 rounded-full blur-3xl opacity-50 -translate-x-1/2 translate-y-1/4"
+                } : { duration: 0 }}
+                className="absolute bottom-0 left-0 -z-10 h-[200px] w-[200px] md:h-[400px] md:w-[400px] bg-accent/20 rounded-full md:blur-3xl blur-xl opacity-50 -translate-x-1/2 translate-y-1/4"
             />
 
 
@@ -93,7 +100,7 @@ export function Hero() {
 
                 {/* Hero Image */}
                 <motion.div
-                    style={{ y, opacity }}
+                    style={parallaxStyle}
                     initial={{ opacity: 0, x: 20 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
@@ -104,8 +111,8 @@ export function Hero() {
                         <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-background to-transparent z-10" />
                         {/* Floating Abstract Shape */}
                         <motion.div
-                            animate={{ rotate: 360 }}
-                            transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
+                            animate={shouldAnimate ? { rotate: 360 } : {}}
+                            transition={shouldAnimate ? { duration: 20, repeat: Infinity, ease: "linear" } : { duration: 0 }}
                             className="absolute -top-10 -right-10 w-32 h-32 bg-accent/20 rounded-full blur-2xl z-0"
                         />
 
@@ -117,7 +124,8 @@ export function Hero() {
                             fill
                             className="object-cover object-center rounded-[40%_60%_70%_30%_/_60%_30%_70%_40%] shadow-2xl"
                             priority
-                            quality={90}
+                            quality={75}
+                            sizes="(max-width: 768px) 100vw, 45vw"
                         />
 
                         {/* Floating Glass Card - Rating */}
