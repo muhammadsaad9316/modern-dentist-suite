@@ -1,7 +1,6 @@
 "use client";
 
-import { motion, useInView, UseInViewOptions, Variant, Variants } from "framer-motion";
-import { useRef } from "react";
+import { motion, UseInViewOptions, Variant, Variants } from "framer-motion";
 import { useAnimationSettings } from "@/lib/hooks/useAnimationSettings";
 
 interface ScrollRevealProps {
@@ -25,8 +24,6 @@ export const ScrollReveal = ({
     className,
     staggerChildren
 }: ScrollRevealProps) => {
-    const ref = useRef(null);
-    const isInView = useInView(ref, viewport);
     const { shouldAnimate } = useAnimationSettings();
 
     // If animations are disabled, we want to show content immediately without motion
@@ -59,10 +56,10 @@ export const ScrollReveal = ({
 
     return (
         <motion.div
-            ref={ref}
             variants={variants}
             initial="hidden"
-            animate={isInView ? "visible" : "hidden"}
+            whileInView="visible"
+            viewport={viewport}
             className={className}
             style={{ width }}
         >
