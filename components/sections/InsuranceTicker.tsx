@@ -17,9 +17,9 @@ const PARTNERS = [
 
 export function InsuranceTicker() {
     return (
-        <section className="py-10 bg-slate-50 border-y border-slate-100 overflow-hidden relative">
+        <section className="py-4 bg-slate-50 border-y border-slate-100 overflow-hidden relative">
             <Container>
-                <div className="text-center mb-6">
+                <div className="text-center mb-2">
                     <p className="text-sm font-semibold text-slate-400 uppercase tracking-widest">
                         We accept all major insurances & private plans
                     </p>

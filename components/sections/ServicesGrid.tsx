@@ -14,16 +14,16 @@ export function ServicesGrid() {
     const t = useTranslations('Services');
 
     return (
-        <section className="py-12 lg:py-24 bg-white below-fold-section">
+        <section className="py-8 lg:py-12 bg-white">
             <Container>
-                <ScrollReveal className="text-center mb-16 max-w-2xl mx-auto">
+                <ScrollReveal className="text-center mb-10 max-w-2xl mx-auto" viewport={{ once: true, amount: 0 }}>
                     <Heading2>{t('title')}</Heading2>
                     <Paragraph>
                         {t('description')}
                     </Paragraph>
                 </ScrollReveal>
 
-                <ScrollReveal staggerChildren={0.1} className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <ScrollReveal staggerChildren={0.1} className="grid md:grid-cols-2 lg:grid-cols-3 gap-8" viewport={{ once: true, amount: 0.1 }}>
                     {SERVICES_DATA.map((service) => (
                         <ScrollRevealItem key={service.id}>
                             <Link href={service.href} className="block h-full">

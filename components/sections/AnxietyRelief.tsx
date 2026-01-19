@@ -22,7 +22,7 @@ export function AnxietyRelief() {
     const { shouldAnimate } = useAnimationSettings();
 
     return (
-        <section className="py-20 bg-blue-50/50">
+        <section className="py-16 bg-blue-50/50">
             <Container>
                 <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 items-center">
                     {/* Text Content */}

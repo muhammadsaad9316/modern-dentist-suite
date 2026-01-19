@@ -11,7 +11,7 @@ export function FinalCTA() {
     const t = useTranslations('FinalCTA');
 
     return (
-        <section className="py-24 bg-primary text-white text-center">
+        <section className="py-16 bg-primary text-white text-center">
             <Container>
                 <div className="max-w-3xl mx-auto">
                     <h2 className="text-3xl lg:text-5xl font-serif font-bold mb-6">

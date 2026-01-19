@@ -15,7 +15,7 @@ export function TrustBar() {
     ]
 
     return (
-        <div className="bg-primary py-12 text-white">
+        <div className="bg-primary py-8 text-white">
             <Container>
                 <div className="grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-8">
                     {stats.map((stat) => (

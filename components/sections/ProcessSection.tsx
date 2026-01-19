@@ -13,9 +13,9 @@ export function ProcessSection() {
     const t = useTranslations('Process');
 
     return (
-        <section className="py-12 lg:py-24 bg-background-subtle">
+        <section className="py-12 lg:py-16 bg-background-subtle">
             <Container>
-                <ScrollReveal className="text-center mb-16">
+                <ScrollReveal className="text-center mb-10">
                     <h2 className="text-sm font-bold uppercase tracking-widest text-secondary mb-3">{t('badge')}</h2>
                     <Heading2>{t('title')}</Heading2>
                 </ScrollReveal>

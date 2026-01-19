@@ -50,7 +50,7 @@ export function Header() {
                             <Stethoscope className="h-6 w-6" />
                         </div>
                         <div className="flex flex-col">
-                            <span className="text-xl font-serif font-bold leading-none text-primary">ZAHNARZTPRAXIS</span>
+                            <span className="text-lg md:text-xl font-serif font-bold leading-none text-primary">ZAHNARZTPRAXIS</span>
                             <span className="text-[10px] tracking-widest text-slate-500 uppercase">{tHeader('logoSubtitle')}</span>
                         </div>
                     </Link>

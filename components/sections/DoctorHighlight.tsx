@@ -12,7 +12,7 @@ export function DoctorHighlight() {
     const credentials = ['item1', 'item2', 'item3', 'item4'];
 
     return (
-        <section className="py-12 lg:py-24 bg-slate-50 overflow-hidden">
+        <section className="py-12 lg:py-16 bg-slate-50 overflow-hidden">
             <Container>
                 <div className="flex flex-col lg:flex-row items-center gap-16">
                     {/* Image Side */}
