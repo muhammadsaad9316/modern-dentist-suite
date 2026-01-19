@@ -1,0 +1,507 @@
+{
+    "RootLayout": {
+        "meta": {
+            "title": "Zahnarztpraxis Bamberg",
+            "description": "Moderne Zahnmedizin in entspannter Atmosphäre – modern, schonend und individuell auf Sie abgestimmt."
+        }
+    },
+    "Hero": {
+        "badge": "Moderne Zahnmedizin in Bamberg",
+        "title": "Wir bieten Ihnen hochwertige zahnmedizinische Behandlungen",
+        "description": "in entspannter Atmosphäre – modern, schonend und individuell auf Sie abgestimmt.",
+        "bookBtn": "Termin online buchen"
+    },
+    "Navigation": {
+        "home": "Startseite",
+        "services": "Leistungen",
+        "aboutus": "Über uns",
+        "testimonials": "Erfahrungen"
+    },
+    "Header": {
+        "bookBtn": "Termin buchen",
+        "logoSubtitle": "Am Zob",
+        "emergency": {
+            "title": "ZAHNÄRZTLICHER NOTDIENST?",
+            "subtitle": "Rufen Sie uns sofort an",
+            "cta": "Jetzt Hilfe holen"
+        }
+    },
+    "TrustBar": {
+        "reviews": {
+            "label": "Basierend auf echten Patientenbewertungen",
+            "value": "4,9 / 5 Bewertung"
+        },
+        "patients": {
+            "label": "Vertrauen uns seit vielen Jahren",
+            "value": "15.000+ Patienten"
+        },
+        "experience": {
+            "label": "Moderne Zahnmedizin mit Kompetenz",
+            "value": "20 Jahre Erfahrung"
+        },
+        "certified": {
+            "label": "Nach deutschen Qualitätsstandards",
+            "value": "Zertifiziert"
+        }
+    },
+    "Services": {
+        "title": "Umfassende Zahnmedizin",
+        "description": "Wir bieten Ihnen ein breites Spektrum moderner zahnmedizinischer Leistungen – alles aus einer Hand.",
+        "items": {
+            "preventive": {
+                "title": "Vorsorge & Prophylaxe",
+                "description": "Regelmäßige Kontrolluntersuchungen und professionelle Zahnreinigung für langfristige Zahngesundheit."
+            },
+            "implants": {
+                "title": "Zahnimplantate",
+                "description": "Fester Zahnersatz mit moderner Implantologie – funktional und ästhetisch."
+            },
+            "orthodontics": {
+                "title": "Kieferorthopädie",
+                "description": "Korrigieren Sie Ihre Zähne diskret mit modernen Alignern oder klassischen Lösungen."
+            },
+            "aesthetic": {
+                "title": "Ästhetische Zahnheilkunde",
+                "description": "Bleaching, Veneers und hochwertige Füllungen für ein schönes Lächeln."
+            },
+            "surgery": {
+                "title": "Oralchirurgie",
+                "description": "Schonende chirurgische Eingriffe nach aktuellen medizinischen Standards."
+            },
+            "emergency": {
+                "title": "Notdienst",
+                "description": "Schnelle Hilfe bei akuten Zahnschmerzen und Notfällen."
+            }
+        },
+        "buttons": {
+            "learnMore": "Mehr erfahren",
+            "book": "Termin buchen"
+        }
+    },
+    "Process": {
+        "badge": "Ihr Weg zu einem gesunden Lächeln",
+        "title": "Ihr Weg zu einem gesunden Lächeln",
+        "steps": {
+            "step1": {
+                "title": "Termin vereinbaren",
+                "description": "Einfach und bequem online oder telefonisch."
+            },
+            "step2": {
+                "title": "Beratung & Untersuchung",
+                "description": "Individuelle Analyse und transparente Behandlungsplanung."
+            },
+            "step3": {
+                "title": "Behandlung",
+                "description": "Schonend, modern und auf Ihre Bedürfnisse abgestimmt."
+            }
+        },
+        "cta": "Jetzt Termin vereinbaren"
+    },
+    "AnxietyRelief": {
+        "badge": "Angst vor dem Zahnarzt?",
+        "title": "Angst vor dem Zahnarzt? <span>Wir sind für Sie da.</span>",
+        "description": "Viele Menschen haben Angst vor dem Zahnarztbesuch – das verstehen wir sehr gut. Wir nehmen uns Zeit, erklären jeden Schritt verständlich und sorgen für eine ruhige, angenehme Atmosphäre.",
+        "quote": "Unser Ziel ist, dass Sie sich bei uns sicher und gut aufgehoben fühlen.",
+        "features": {
+            "wind": {
+                "title": "Sanfte Betäubung",
+                "description": "Wir tragen vor jeder Behandlung ein betäubendes Gel auf, damit Sie den Einstich nicht spüren."
+            },
+            "music": {
+                "title": "Geräuscharme Behandlung",
+                "description": "Entspannen Sie mit Ihrer Lieblingsmusik oder Podcasts und blenden Sie klinische Geräusche aus."
+            },
+            "hand": {
+                "title": "Schmerzfreie Verfahren",
+                "description": "Heben Sie jederzeit die Hand, und wir unterbrechen sofort. Sie haben immer die Kontrolle."
+            },
+            "moon": {
+                "title": "Moderne Technik",
+                "description": "Für tiefere Angst bieten wir sichere Sedierungsmethoden an, damit Sie die Behandlung verschlafen."
+            },
+            "heart": {
+                "title": "Einfühlsame Betreuung",
+                "description": "Keine Belehrungen, kein Urteil. Wir verstehen Angst und behandeln Sie mit Geduld und Respekt."
+            },
+            "coffee": {
+                "title": "Persönliche Beratung",
+                "description": "Warme Decken, Nackenkissen und eine Getränkestation in unserem Wartebereich."
+            }
+        }
+    },
+    "DoctorHighlight": {
+        "badge": "Zahnarzt & Implantologe",
+        "title": "Dr. med. dent. Michael Geus, MSc.",
+        "bio": "Mir ist wichtig, dass meine Patienten Vertrauen haben und sich medizinisch wie menschlich gut betreut fühlen.",
+        "credentials": {
+            "item1": "Spezialist für Implantologie",
+            "item2": "Master of Science in Zahnmedizin",
+            "item3": "Mitglied der DGZMK",
+            "item4": "Langjährige Berufserfahrung"
+        }
+    },
+    "Testimonials": {
+        "title": "Patientenerfahrungen",
+        "items": {
+            "1": {
+                "content": "Sehr freundliches Team und moderne Praxis. Ich habe mich vom ersten Moment an wohlgefühlt. — Sarah K."
+            },
+            "2": {
+                "content": "Kompetente Beratung und schmerzfreie Behandlung. Absolute Empfehlung! — Michael B."
+            },
+            "3": {
+                "content": "Endlich keine Angst mehr vor dem Zahnarzt. Vielen Dank an das gesamte Team! — Julia R."
+            }
+        },
+        "verified": "Verifizierter Patient"
+    },
+    "FinalCTA": {
+        "title": "Bereit für den nächsten Schritt?",
+        "description": "Vereinbaren Sie jetzt Ihren Termin und erleben Sie moderne Zahnmedizin in Bamberg.",
+        "button": "Beratungstermin vereinbaren",
+        "note": "Dauert weniger als 2 Minuten. Keine Kreditkarte erforderlich."
+    },
+    "Footer": {
+        "description": "Zahnarztpraxis Bamberg\nMusterstraße 12 · 96047 Bamberg\n\n📞 +49 951 123456\n✉ kontakt@zahnarztpraxis-bamberg.de",
+        "contact": "Kontakt",
+        "hours": "Öffnungszeiten: Mo–Fr: 08:00 – 18:00 Uhr",
+        "social": "Social Media",
+        "rights": "© 2025 Zahnarztpraxis Bamberg. Alle Rechte vorbehalten.",
+        "imprint": "Impressum",
+        "privacy": "Datenschutz",
+        "week": {
+            "monThu": "Mo - Do",
+            "fri": "Freitag",
+            "weekend": "Wochenende"
+        },
+        "status": {
+            "closed": "Geschlossen"
+        }
+    },
+    "ServicesPage": {
+        "meta": {
+            "title": "Umfassende Zahnmedizin | Bamberg",
+            "description": "Von Implantologie bis Ästhetik bieten wir Ihnen ein breites Spektrum an zahnmedizinischen Leistungen."
+        },
+        "hero": {
+            "title": "Unsere umfassenden Behandlungen",
+            "description": "Von der Vorsorge bis zur komplexen Oralchirurgie bieten wir Ihnen ein breites Spektrum an zahnmedizinischen Leistungen, individuell auf Ihre Bedürfnisse abgestimmt."
+        },
+        "features": {
+            "implants": {
+                "subtitle": "Wiederherstellende Versorgung",
+                "title": "Moderne Implantologie",
+                "description": "Gewinnen Sie die volle Funktion und Ästhetik Ihres Lächelns zurück. Unsere computergestützten Implantatsverfahren bieten präzise, natürlich wirkende Ergebnisse, die sich wie Ihre eigenen Zähne anfühlen.",
+                "benefits": {
+                    "1": "Dauerhafte Lösung für fehlende Zähne",
+                    "2": "Erhält Gesichtsstruktur und Knochendichte",
+                    "3": "Minimalinvasive 3D-geführte Chirurgie"
+                },
+                "cta": "Implantat-Beratung buchen"
+            },
+            "aesthetic": {
+                "subtitle": "Ästhetische Exzellenz",
+                "title": "Ästhetische Zahnheilkunde",
+                "description": "Gestalten Sie das Lächeln, von dem Sie schon immer geträumt haben. Ob Veneers, Bleaching oder Bonding – wir verwenden hochwertige Keramiken und künstlerische Präzision, um Ihre natürliche Schönheit zu unterstreichen.",
+                "benefits": {
+                    "1": "Individuell gefertigte Veneers & Lumineers",
+                    "2": "Professionelles In-Office Bleaching",
+                    "3": "Digitale Smile-Design Vorschau"
+                },
+                "cta": "Ästhetik-Beratung buchen"
+            },
+            "preventive": {
+                "subtitle": "Langfristige Gesundheit",
+                "title": "Vorsorge & Prophylaxe",
+                "description": "Die Grundlage eines gesunden Lächelns ist die Vorbeugung. Unsere sanften Reinigungsprotokolle und Früherkennungstechnologien sorgen dafür, dass Ihre Zähne ein Leben lang gesund bleiben.",
+                "benefits": {
+                    "1": "Guided Biofilm Therapy (GBT)",
+                    "2": "Sanfte Air-Flow Technologie",
+                    "3": "Individuelle Risikobewertung"
+                },
+                "cta": "Prophylaxe-Termin buchen"
+            }
+        },
+        "specialized": {
+            "title": "Spezialisierte Behandlungen",
+            "items": {
+                "surgery": {
+                    "title": "Oralchirurgie",
+                    "description": "Expertenversorgung für Weisheitszahnentfernung, Knochenaufbau und komplexe Extraktionen in sicherer Umgebung.",
+                    "link": "Mehr erfahren"
+                },
+                "ortho": {
+                    "title": "Kieferorthopädie",
+                    "description": "Diskrete Korrekturlösungen inklusive transparenter Aligner für Erwachsene und Jugendliche für ein perfektes Lächeln.",
+                    "link": "Mehr erfahren"
+                },
+                "pediatric": {
+                    "title": "Kinderzahnheilkunde",
+                    "description": "Sanfte, angstfreie Zahnversorgung speziell für Kinder, um frühzeitig gesunde Gewohnheiten zu fördern.",
+                    "link": "Mehr erfahren"
+                }
+            }
+        }
+    },
+    "AboutPage": {
+        "meta": {
+            "title": "Über uns | Zahnarztpraxis Am Zob",
+            "description": "Lernen Sie unser Expertenteam kennen. Wir verbinden moderne Technologie mit Patientenkomfort."
+        },
+        "hero": {
+            "badge": "Wer Wir Sind",
+            "title": "Unsere Mission in Bamberg",
+            "description": "Gegründet mit der Vision, das Zahnarzterlebnis neu zu definieren, steht die Zahnarztpraxis Am Zob für exzellente Zahngesundheit in Bamberg. Wir glauben, dass ein Zahnarztbesuch bestärkend sein sollte, nicht beängstigend."
+        },
+        "mission": {
+            "title": "Moderne Zahnmedizin, Menschliche Nähe",
+            "p1": "Unsere Praxis verbindet echte technische Präzision mit menschlicher Wärme. Jeder Winkel unserer Klinik ist auf Patientenkomfort ausgelegt, von unserer einladenden Lounge bis hin zu unseren hochmodernen Behandlungsräumen.",
+            "p2": "Wir setzen uns dafür ein, Ihr natürliches Lächeln durch minimalinvasive Techniken und ständige Innovation zu erhalten. Ihr Vertrauen ist unser wertvollstes Gut, das wir uns jeden Tag durch transparente Kommunikation und fürsorgliche Pflege verdienen."
+        },
+        "whyChooseUs": {
+            "title": "Warum Patienten uns wählen",
+            "subtitle": "Exzellenz ist keine Handlung, sondern eine Gewohnheit in allem, was wir tun.",
+            "items": {
+                "modern": {
+                    "title": "Moderne Technologie",
+                    "desc": "Präzise Diagnostik mit strahlungsarmem DVT, CEREC für Kronen am selben Tag und 3D-Bildgebung."
+                },
+                "comfort": {
+                    "title": "Patientenkomfort",
+                    "desc": "Ihre Entspannung ist unsere Priorität. Wir bieten umfassende schmerzfreie Protokolle, Sedierungsoptionen und eine beruhigende Atmosphäre."
+                },
+                "expert": {
+                    "title": "Experten-Team",
+                    "desc": "Unsere Kliniker haben Master-Abschlüsse und legen Wert auf ständige Weiterbildung, um Ihnen den höchsten Behandlungsstandard zu bieten."
+                }
+            }
+        },
+        "team": {
+            "title": "Unser Team",
+            "members": {
+                "0": {
+                    "role": "Leitender Zahnarzt & Implantologe",
+                    "bio": "Master of Science in Oralchirurgie mit über 15 Jahren Erfahrung."
+                },
+                "1": {
+                    "role": "Kieferorthopädin",
+                    "bio": "Verfügbar für transparente Aligner-Therapie und komplexe Kieferkorrekturen."
+                },
+                "2": {
+                    "role": "Leitung Prophylaxe",
+                    "bio": "Engagiert für Ihre langfristige Zahnfleischgesundheit und Vorsorge."
+                }
+            }
+        },
+        "transparency": {
+            "title": "Versicherungs- & Zahlungstransparenz",
+            "description": "Wir glauben, dass finanzielle Klarheit Teil einer exzellenten Versorgung ist. Unsere Klinik arbeitet mit allen gesetzlichen und privaten Krankenkassen zusammen. Für umfangreiche Behandlungen bieten wir auch flexible Ratenzahlungen an.",
+            "tags": {
+                "public": "Alle Kassen",
+                "private": "Privatversichert",
+                "financing": "0% Finanzierung Verfügbar"
+            }
+        }
+    },
+    "TestimonialsPage": {
+        "meta": {
+            "title": "Patientengeschichten | Zahnarztpraxis Am Zob",
+            "description": "Lesen Sie, was unsere Patienten sagen. Ehrliches Feedback aus der Bamberger Gemeinschaft."
+        },
+        "hero": {
+            "badge": "Patientengeschichten",
+            "title": "Echte Lächeln, Echte Geschichten",
+            "description": "Wir sind stolz auf die Beziehungen, die wir aufbauen. Lesen Sie, was unsere Patienten über ihren Weg zu einem gesünderen, selbstbewussteren Lächeln sagen."
+        },
+        "reviews": {
+            "0": {
+                "role": "Implantat-Patient",
+                "content": "Ich hatte jahrelang Angst vor dem Zahnarzt. Das Team Am Zob hat alles verändert. Die Implantatbehandlung war schmerzlos und ich habe endlich mein Lächeln zurück."
+            },
+            "1": {
+                "role": "Vorsorge",
+                "content": "Professionell, pünktlich und unglaublich modern. Das beste Zahnartzerlebnis, das ich in Bamberg hatte. Kann Dr. Müller nur empfehlen."
+            },
+            "2": {
+                "role": "Veneers",
+                "content": "Das ästhetische Ergebnis hat meine Erwartungen übertroffen. Sie sind wahre Künstler. Die Beratung war gründlich und ich fühlte mich in jede Entscheidung einbezogen."
+            },
+            "3": {
+                "role": "Notfall",
+                "content": "Sie haben mich an einem Sonntag wegen eines abgebrochenen Zahns drangenommen. Ich hatte solche Schmerzen, und sie haben so schnell und fürsorglich gehandelt. Lebensretter!"
+            },
+            "4": {
+                "role": "Professionelle Reinigung",
+                "content": "Das Hygiene-Team ist fantastisch. Sanft aber gründlich. Meine Zähne fühlen sich nach jedem Besuch toll an."
+            },
+            "5": {
+                "role": "Bleaching",
+                "content": "Dezente aber sichtbare Ergebnisse. Genau was ich für meine Hochzeit wollte. Danke an das ganze Team!"
+            }
+        },
+        "video": {
+            "title": "Video-Erfahrungsberichte",
+            "subtitle": "Hören Sie direkt von unseren glücklichen Patienten.",
+            "stories": {
+                "0": {
+                    "desc": "Komplette Gebisssanierung"
+                },
+                "1": {
+                    "desc": "Kieferorthopädische Behandlung"
+                }
+            }
+        },
+        "cta": {
+            "title": "Teilen Sie Ihre Erfahrung",
+            "description": "Wir streben ständig danach, uns zu verbessern. Ihr Feedback hilft uns zu wachsen.",
+            "googleBtn": "Bewertung auf Google",
+            "jamedaBtn": "Bewertung auf Jameda"
+        }
+    },
+    "BookPage": {
+        "meta": {
+            "title": "Termin vereinbaren | Zahnarztpraxis Am Zob",
+            "description": "Planen Sie Ihren Besuch bei uns. Bitte füllen Sie das Terminformular aus."
+        },
+        "title": "Termin vereinbaren",
+        "description": "Planen Sie Ihren Besuch bei unserem Expertenteam. Bitte füllen Sie das untenstehende Formular aus, wir melden uns umgehend zur Bestätigung bei Ihnen.",
+        "form": {
+            "patientType": {
+                "label": "Patientenstatus",
+                "new": "Neupatient",
+                "returning": "Bestandspatient"
+            },
+            "insurance": {
+                "label": "Versicherung",
+                "options": {
+                    "public": "Gesetzlich versichert",
+                    "private": "Privat versichert",
+                    "self": "Selbstzahler"
+                }
+            },
+            "personal": {
+                "name": "Vollständiger Name",
+                "phone": "Telefonnummer",
+                "email": "E-Mail-Adresse",
+                "placeholders": {
+                    "name": "Max Mustermann",
+                    "phone": "+49 ...",
+                    "email": "max@beispiel.de",
+                    "message": "Spezielle Anliegen oder Fragen?"
+                }
+            },
+            "service": {
+                "label": "Art der Behandlung",
+                "options": {
+                    "checkup": "Allgemeine Kontrolle",
+                    "cleaning": "Professionelle Zahnreinigung",
+                    "pain": "Schmerzen / Notfall",
+                    "implant": "Implantat-Beratung",
+                    "aesthetic": "Ästhetik / Bleaching",
+                    "other": "Sonstiges"
+                }
+            },
+            "datetime": {
+                "date": "Wunschdatum",
+                "time": "Wunschzeit"
+            },
+            "notes": "Zusätzliche Hinweise",
+            "submit": "Termin anfragen",
+            "submitting": "Wird gesendet...",
+            "disclaimer": "Mit dem Absenden stimmen Sie unserer Datenschutzerklärung zu. Ihre Daten sind bei uns sicher.",
+            "errors": {
+                "required": "Dieses Feld ist erforderlich",
+                "invalid_email": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+                "invalid_phone": "Bitte geben Sie eine gültige Telefonnummer ein"
+            }
+        },
+        "success": {
+            "title": "Anfrage erhalten!",
+            "message": "Vielen Dank. Wir haben Ihre Terminanfrage erhalten und werden uns in Kürze zur Bestätigung bei Ihnen melden.",
+            "btn": "Zur Startseite"
+        },
+        "sidebar": {
+            "title": "Kontakt",
+            "subtitle": "Möchten Sie lieber direkt mit uns sprechen? Rufen Sie uns an oder besuchen Sie uns.",
+            "phone": "Telefon",
+            "email": "E-Mail",
+            "hours": "Öffnungszeiten",
+            "days": {
+                "mon_thu": "Mo-Do",
+                "fri": "Fr"
+            }
+        }
+    },
+    "EmergencyPage": {
+        "meta": {
+            "title": "Zahnärztlicher Notdienst Bamberg | Soforthilfe",
+            "description": "Dringende Zahnbehandlung in Bamberg. Rufen Sie +49 951 123456 für sofortige Hilfe an."
+        },
+        "hero": {
+            "badge": "Zahnärztlicher Notdienst",
+            "title": "Zahnnotfall in Bamberg?",
+            "highlight": "Wir sind für Sie da.",
+            "description": "Sofortige Hilfe bei Zahnschmerzen, abgebrochenen Zähnen oder Unfällen. Termine am selben Tag für dringende Fälle.",
+            "callBtn": "Jetzt anrufen:",
+            "directionsBtn": "Anfahrt",
+            "card": {
+                "title": "Standort & Verfügbarkeit",
+                "hours": "Notdienstzeiten",
+                "address": "Adresse",
+                "weekdays": "Mo - Fr",
+                "sat": "Sa",
+                "sun": "So",
+                "onCall": "Notdienst"
+            }
+        },
+        "common": {
+            "title": "Häufige Notfälle",
+            "items": {
+                "toothache": {
+                    "title": "Starke Zahnschmerzen",
+                    "desc": "Sofortige Diagnose und Schmerzlinderung bei anhaltenden Schmerzen."
+                },
+                "broken": {
+                    "title": "Abgebrochene Zähne",
+                    "desc": "Ästhetische und funktionelle Reparatur zur sofortigen Wiederherstellung."
+                },
+                "fillings": {
+                    "title": "Verlorene Füllungen/Kronen",
+                    "desc": "Schneller Ersatz zum Schutz empfindlicher Zahnsubstanz."
+                },
+                "abscess": {
+                    "title": "Abszess oder Schwellung",
+                    "desc": "Dringende Behandlung von Infektionen, um Ausbreitung zu verhindern."
+                },
+                "knocked": {
+                    "title": "Ausgeschlagener Zahn",
+                    "desc": "Zeitkritische Replantation möglich. Rufen Sie uns sofort an."
+                },
+                "bleeding": {
+                    "title": "Zahnfleischbluten",
+                    "desc": "Behandlung bei akuten Verletzungen oder starken Entzündungen."
+                }
+            }
+        },
+        "steps": {
+            "title": "Was jetzt zu tun ist",
+            "step1": {
+                "title": "1. Notruf wählen",
+                "desc": "Wählen Sie {phone}. Unser Team bereitet sich auf Ihre Ankunft vor."
+            },
+            "step2": {
+                "title": "2. Kühlen",
+                "desc": "Bei Schwellungen die Wange kühlen. Keine Wärme oder Aspirin direkt auf den Zahn geben."
+            },
+            "step3": {
+                "title": "3. Zu uns kommen",
+                "desc": "Kommen Sie in unsere zentrale Praxis am ZOB. Parkplätze sind in der Nähe."
+            }
+        },
+        "cta": {
+            "title": "Leiden Sie nicht unter Schmerzen. Rufen Sie uns jetzt an.",
+            "btn": "Jetzt anrufen:",
+            "note": "Wir akzeptieren alle Kassen. Notfälle werden priorisiert."
+        }
+    }
+}

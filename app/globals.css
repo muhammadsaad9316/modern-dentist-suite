@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-inter);
+
+  --color-primary: #1E40AF;
+  /* Deep Royal Blue */
+  --color-secondary: #2563EB;
+  /* Vibrant Royal Blue */
+  --color-accent: #93C5FD;
+  /* Ice Blue */
+  --color-emergency: #ef4444;
+  /* Red 500 */
+
+  --color-background: #ffffff;
+  --color-background-subtle: #F0F9FF;
+  /* Very light powder blue */
+  --color-foreground: #475569;
+  /* Slate 600 */
+}
+
+/* Custom Base Styles */
+@layer base {
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    overflow-x: hidden;
+    width: 100%;
+  }
+}
+
+/* Utilities */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Glassmorphism Utilities */
+  .glass-panel {
+    @apply bg-white/60 backdrop-blur-md border border-white/40 shadow-xl;
+  }
+
+  .glass-panel-strong {
+    @apply bg-white/80 backdrop-blur-lg border border-white/50 shadow-lg;
+  }
+
+  /* Premium Depth Shadows */
+  .shadow-premium {
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.05), 0 4px 12px -5px rgba(0, 0, 0, 0.02);
+  }
+
+  .shadow-premium-hover {
+    box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.1), 0 8px 16px -8px rgba(0, 0, 0, 0.04);
+  }
+}

@@ -1,0 +1,507 @@
+{
+    "RootLayout": {
+        "meta": {
+            "title": "Premium Dental Clinic | Bamberg",
+            "description": "Experience state-of-the-art dentistry in a modern environment."
+        }
+    },
+    "Hero": {
+        "badge": "Accepting New Patients",
+        "title": "Modern, Gentle Dental Care for Bamberg",
+        "description": "Experience pain-free dentistry in a relaxing atmosphere. We combine modern technology with genuine care to ensure you feel safe and comfortable.",
+        "bookBtn": "Book Online Now"
+    },
+    "Navigation": {
+        "home": "Home",
+        "services": "Services",
+        "aboutus": "About Us",
+        "testimonials": "Testimonials"
+    },
+    "Header": {
+        "bookBtn": "Book Appointment",
+        "logoSubtitle": "At the central bus station",
+        "emergency": {
+            "title": "DENTAL EMERGENCY?",
+            "subtitle": "Call for immediate assistance",
+            "cta": "Get Help Now"
+        }
+    },
+    "TrustBar": {
+        "reviews": {
+            "label": "Google Reviews",
+            "value": "4.9/5 Rating"
+        },
+        "patients": {
+            "label": "Happy Patients",
+            "value": "15,000+"
+        },
+        "experience": {
+            "label": "Of Excellence",
+            "value": "20+ Years"
+        },
+        "certified": {
+            "label": "Master Clinicians",
+            "value": "Certified"
+        }
+    },
+    "Services": {
+        "title": "Comprehensive Dental Services",
+        "description": "Everything you need for a healthy, beautiful smile under one roof.",
+        "items": {
+            "preventive": {
+                "title": "Preventive Care",
+                "description": "Keep your natural teeth healthy for life with comprehensive cleanings and early detection."
+            },
+            "implants": {
+                "title": "Dental Implants",
+                "description": "Restore your smile's function and aesthetics with permanent, natural-looking tooth replacements."
+            },
+            "orthodontics": {
+                "title": "Orthodontics",
+                "description": "Straighten your teeth discreetly with modern clear aligners and traditional solutions."
+            },
+            "aesthetic": {
+                "title": "Aesthetic Dentistry",
+                "description": "Design your perfect smile with premium veneers, whitening, and cosmetic bonding."
+            },
+            "surgery": {
+                "title": "Oral Surgery",
+                "description": "Expert surgical care for complex extractions and procedures in a gentle environment."
+            },
+            "emergency": {
+                "title": "Emergency Care",
+                "description": "Immediate pain relief and urgent care when you need it most. Same-day slots available."
+            }
+        },
+        "buttons": {
+            "learnMore": "Learn More",
+            "book": "Book Consultation"
+        }
+    },
+    "Process": {
+        "badge": "Simple Process",
+        "title": "Your Path to a Confident Smile",
+        "steps": {
+            "step1": {
+                "title": "Easy Online Booking",
+                "description": "Choose your preferred time and service online in less than 60 seconds."
+            },
+            "step2": {
+                "title": "Personalized Consultation",
+                "description": "We listen to your needs and create a custom treatment plan just for you."
+            },
+            "step3": {
+                "title": "Gentle Treatment",
+                "description": "Experience pain-free care with our state-of-the-art technology."
+            }
+        },
+        "cta": "Start Your Journey"
+    },
+    "AnxietyRelief": {
+        "badge": "Safe & Calming Care",
+        "title": "Relax. <span>You are in control.</span>",
+        "description": "Dental anxiety is common, but it shouldn't stand in the way of your health. We've designed every aspect of our practice to help you feel calm, safe, and supported.",
+        "quote": "Our promise: If you feel pain or discomfort, simply raise your hand, and we stop. Immediately.",
+        "features": {
+            "wind": {
+                "title": "Pain-Free Start",
+                "description": "We apply a magic numbing gel before we even begin, so you won't feel a thing."
+            },
+            "music": {
+                "title": "Escape to Your World",
+                "description": "Drift away with noise-cancelling headphones and your favorite music to block out clinical sounds."
+            },
+            "hand": {
+                "title": "Total Control 'Stop' Signal",
+                "description": "Raise your hand at any time, and we stop immediately. You are always in charge."
+            },
+            "moon": {
+                "title": "Dream While We Work",
+                "description": "For deeper relaxation, we offer safe sedation options to help you sleep comfortably through the visit."
+            },
+            "heart": {
+                "title": "Empathy First",
+                "description": "No lectures, no judgment. We understand fear and treat you with patience and respect."
+            },
+            "coffee": {
+                "title": "Comfort Amenities",
+                "description": "Warm blankets, neck pillows, and a relaxing beverage station in our waiting area."
+            }
+        }
+    },
+    "DoctorHighlight": {
+        "badge": "Years Experience",
+        "title": "Dr. med. dent. Michael Geus, MSc.",
+        "bio": "I became a dentist to help people overcome their fear of the chair. My goal is to provide a space where you feel safe, heard, and in control. With over 15 years of experience, I combine technical precision with a gentle, empathetic approach to make every visit a positive step for your health.",
+        "credentials": {
+            "item1": "Certified Implantologist",
+            "item2": "Master of Science in Oral Surgery",
+            "item3": "Member of the German Society of Dentistry",
+            "item4": "Specialist in 3D Diagnostics"
+        }
+    },
+    "Testimonials": {
+        "title": "Patient Success Stories",
+        "items": {
+            "1": {
+                "content": "I was terrified of dentists until I found Dr. Geus. The implant procedure was completely painless, and the results are incredible. I can smile confidently again!"
+            },
+            "2": {
+                "content": "From the warm welcome at the reception to the professional treatment, everything is top-notch. The best dental experience I've had in 40 years."
+            },
+            "3": {
+                "content": "The aesthetic dentistry work exceeded my expectations. The veneers look so natural. Thank you to the whole team for my new smile!"
+            }
+        },
+        "verified": "Verified Patient"
+    },
+    "FinalCTA": {
+        "title": "Ready to experience the difference?",
+        "description": "Book your appointment today and take the first step towards a healthy, confident smile. We look forward to welcoming you.",
+        "button": "Schedule Consultation",
+        "note": "Takes less than 2 minutes. No credit card required."
+    },
+    "Footer": {
+        "description": "Your trusted partner for comprehensive dental health in Bamberg.",
+        "contact": "Contact Us",
+        "hours": "Office Hours",
+        "social": "Social Media",
+        "rights": "© 2025 Zahnarztpraxis Am Zob. All rights reserved.",
+        "imprint": "Imprint",
+        "privacy": "Privacy Policy",
+        "week": {
+            "monThu": "Mon - Thu",
+            "fri": "Friday",
+            "weekend": "Weekend"
+        },
+        "status": {
+            "closed": "Closed"
+        }
+    },
+    "ServicesPage": {
+        "meta": {
+            "title": "Comprehensive Dental Services | Bamberg",
+            "description": "From implants to aesthetics, we offer a full spectrum of dental services tailored to your unique needs and comfort."
+        },
+        "hero": {
+            "title": "Our Comprehensive Treatments",
+            "description": "From preventive hygiene to complex oral surgery, we offer a full spectrum of dental services tailored to your unique needs and comfort."
+        },
+        "features": {
+            "implants": {
+                "subtitle": "Restorative Care",
+                "title": "Advanced Implantology",
+                "description": "Reclaim the full function and aesthetics of your smile. Our computer-guided implant procedures offer precise, natural-looking results that feel just like your own teeth.",
+                "benefits": {
+                    "1": "Permanent solution for missing teeth",
+                    "2": "Preserves facial structure and bone density",
+                    "3": "Minimally invasive 3D-guided surgery"
+                },
+                "cta": "Book Implant Consultation"
+            },
+            "aesthetic": {
+                "subtitle": "Cosmetic Excellence",
+                "title": "Aesthetic Dentistry",
+                "description": "Design the smile you've always dreamed of. Whether it's veneers, whitening, or bonding, we use high-grade ceramics and artistic precision to enhance your natural beauty.",
+                "benefits": {
+                    "1": "Custom-designed Veneers & Lumineers",
+                    "2": "Professional In-Office Whitening",
+                    "3": "Digital Smile Design preview"
+                },
+                "cta": "Book Aesthetic Consultation"
+            },
+            "preventive": {
+                "subtitle": "Long-term Health",
+                "title": "Preventive Care & Prophylaxis",
+                "description": "The foundation of a healthy smile is prevention. Our gentle cleaning protocols and early detection technologies ensure your teeth stay healthy for a lifetime.",
+                "benefits": {
+                    "1": "Guided Biofilm Therapy (GBT)",
+                    "2": "Gentle Air-Flow technology",
+                    "3": "Individual risk assessment"
+                },
+                "cta": "Book Hygiene Appointment"
+            }
+        },
+        "specialized": {
+            "title": "Specialized Treatments",
+            "items": {
+                "surgery": {
+                    "title": "Oral Surgery",
+                    "description": "Expert care for wisdom teeth removal, bone augmentation, and complex extractions in a safe environment.",
+                    "link": "Learn more"
+                },
+                "ortho": {
+                    "title": "Orthodontics",
+                    "description": "Discreet alignment solutions including clear aligners for adults and teens to perfect your smile.",
+                    "link": "Learn more"
+                },
+                "pediatric": {
+                    "title": "Pediatric Dentistry",
+                    "description": "Gentle, fear-free dental care designed specifically for children to build healthy habits early.",
+                    "link": "Learn more"
+                }
+            }
+        }
+    },
+    "AboutPage": {
+        "meta": {
+            "title": "About Us | Zahnarztpraxis Am Zob",
+            "description": "Meet our expert team of dentists in Bamberg. We combine modern technology with patient comfort."
+        },
+        "hero": {
+            "badge": "Who We Are",
+            "title": "Our Mission in Bamberg",
+            "description": "Founded with a vision to redefine the dental experience, Zahnarztpraxis Am Zob stands as a pillar of oral health excellence in Bamberg. We believe that visiting the dentist should be an empowering experience, not a fearful one."
+        },
+        "mission": {
+            "title": "Modern Dentistry, Human Connection",
+            "p1": "Our practice seamlessly blends true technical precision with genuine human connection. Every corner of our clinic is designed for patient comfort, from our welcoming lounge to our state-of-the-art treatment rooms.",
+            "p2": "We are committed to preserving your natural smile through minimally invasive techniques and continuous innovation. Your trust is our most valuable asset, and we earn it every day through transparent communication and compassionate care."
+        },
+        "whyChooseUs": {
+            "title": "Why Patients Choose Us",
+            "subtitle": "Excellence is not an act, but a habit in everything we do.",
+            "items": {
+                "modern": {
+                    "title": "Modern Technology",
+                    "desc": "Precision diagnostics with Low-radiation CBCT, CEREC for same-day crowns, and 3D imaging."
+                },
+                "comfort": {
+                    "title": "Patient Comfort",
+                    "desc": "Your relaxation is our priority. We offer comprehensive pain-free protocols, sedation options, and a calming atmosphere."
+                },
+                "expert": {
+                    "title": "Expert Team",
+                    "desc": "Our clinicians hold Master's degrees and prioritize continuous education to bring you the highest standard of care."
+                }
+            }
+        },
+        "team": {
+            "title": "Meet Our Team",
+            "members": {
+                "0": {
+                    "role": "Lead Dentist & Implantologist",
+                    "bio": "Master of Science in Oral Surgery with 15+ years experience."
+                },
+                "1": {
+                    "role": "Orthodontist",
+                    "bio": "Available for clear aligner therapy and complex jaw corrections."
+                },
+                "2": {
+                    "role": "Head of Prophylaxis",
+                    "bio": "Dedicated to your long-term gum health and preventive care."
+                }
+            }
+        },
+        "transparency": {
+            "title": "Insurance & Payment Transparency",
+            "description": "We believe financial clarity is part of excellent care. Our clinic works with all public and private insurance providers to maximize your benefits. We also offer flexible installment plans for extensive treatments.",
+            "tags": {
+                "public": "Public Insurance Accepted",
+                "private": "Private Insurance Friendly",
+                "financing": "0% Financing Available"
+            }
+        }
+    },
+    "TestimonialsPage": {
+        "meta": {
+            "title": "Patient Stories | Zahnarztpraxis Am Zob",
+            "description": "Read what our patients say about their experience. Honest feedback from the Bamberg community about our dental care."
+        },
+        "hero": {
+            "badge": "Patient Stories",
+            "title": "Real Smiles, Real Stories",
+            "description": "We take pride in the relationships we build. See what our patients have to say about their journey to a healthier, more confident smile."
+        },
+        "reviews": {
+            "0": {
+                "role": "Implant Patient",
+                "content": "I was terrified of the dentist for years. The team at Am Zob changed everything. The implant procedure was painless, and I finally have my smile back."
+            },
+            "1": {
+                "role": "Regular Checkups",
+                "content": "Professional, punctual, and incredibly modern. The best dental experience I've had in Bamberg. Highly recommend Dr. Mueller."
+            },
+            "2": {
+                "role": "Veneers",
+                "content": "The aesthetic results exceeded my expectations. They truly are artists. The consultation was thorough and I felt involved in every decision."
+            },
+            "3": {
+                "role": "Emergency Care",
+                "content": "They saw me on a Sunday for a broken tooth. I was in so much pain, and they handled it with such care and speed. Lifesavers!"
+            },
+            "4": {
+                "role": "Deep Cleaning",
+                "content": "The hygiene team is fantastic. Gentle but thorough. My teeth feel amazing after every visit."
+            },
+            "5": {
+                "role": "Whitening",
+                "content": "Subtle but noticeable results. Exactly what I wanted for my wedding. Thank you to the whole team!"
+            }
+        },
+        "video": {
+            "title": "Video Testimonials",
+            "subtitle": "Hear directly from our happy patients.",
+            "stories": {
+                "0": {
+                    "desc": "Full Mouth Rehabilitation"
+                },
+                "1": {
+                    "desc": "Orthodontic Treatment"
+                }
+            }
+        },
+        "cta": {
+            "title": "Share Your Experience",
+            "description": "We constantly strive to improve to provide you with the best care possible. Your feedback helps us grow.",
+            "googleBtn": "Review on Google",
+            "jamedaBtn": "Review on Jameda"
+        }
+    },
+    "BookPage": {
+        "meta": {
+            "title": "Book Your Appointment | Zahnarztpraxis Am Zob",
+            "description": "Schedule your visit with our expert team. Please fill out the booking form."
+        },
+        "title": "Book Your Appointment",
+        "description": "Schedule your visit with our expert team. Please fill out the form below, and we'll get back to you to confirm your appointment.",
+        "form": {
+            "patientType": {
+                "label": "Patient Type",
+                "new": "New Patient",
+                "returning": "Returning"
+            },
+            "insurance": {
+                "label": "Insurance",
+                "options": {
+                    "public": "Public Insurance (Gesetzlich)",
+                    "private": "Private Insurance",
+                    "self": "Self-Payer"
+                }
+            },
+            "personal": {
+                "name": "Full Name",
+                "phone": "Phone Number",
+                "email": "Email Address",
+                "placeholders": {
+                    "name": "John Doe",
+                    "phone": "+49 ...",
+                    "email": "john@example.com",
+                    "message": "Any specific concerns or questions?"
+                }
+            },
+            "service": {
+                "label": "Service Type",
+                "options": {
+                    "checkup": "General Checkup",
+                    "cleaning": "Professional Cleaning",
+                    "pain": "Pain / Emergency",
+                    "implant": "Implant Consultation",
+                    "aesthetic": "Aesthetic/Whitening",
+                    "other": "Other"
+                }
+            },
+            "datetime": {
+                "date": "Preferred Date",
+                "time": "Preferred Time"
+            },
+            "notes": "Additional Notes",
+            "submit": "Request Appointment",
+            "submitting": "Sending Request...",
+            "disclaimer": "By submitting this form, you agree to our privacy policy. Your data is safe with us.",
+            "errors": {
+                "required": "This field is required",
+                "invalid_email": "Please enter a valid email address",
+                "invalid_phone": "Please enter a valid phone number"
+            }
+        },
+        "success": {
+            "title": "Appointment Requested!",
+            "message": "Thank you for choosing us. We have received your appointment request and will contact you shortly to confirm the details.",
+            "btn": "Return Home"
+        },
+        "sidebar": {
+            "title": "Contact Us",
+            "subtitle": "Prefer to speak with us directly? Give us a call or visit our clinic.",
+            "phone": "Phone",
+            "email": "Email",
+            "hours": "Hours",
+            "days": {
+                "mon_thu": "Mon-Thu",
+                "fri": "Fri"
+            }
+        }
+    },
+    "EmergencyPage": {
+        "meta": {
+            "title": "Emergency Dentist Bamberg | Immediate Pain Relief",
+            "description": "Urgent dental care in Bamberg. Call +49 951 123456 for immediate assistance. Same-day appointments available."
+        },
+        "hero": {
+            "badge": "Emergency Dental Service",
+            "title": "Dental Emergency in Bamberg?",
+            "highlight": "We are Here to Help.",
+            "description": "Immediate relief for tooth pain, broken teeth, or dental trauma. Same-day appointments available for urgent cases.",
+            "callBtn": "Call Now:",
+            "directionsBtn": "Get Directions",
+            "card": {
+                "title": "Location & Availability",
+                "hours": "Emergency Hours",
+                "address": "Clinic Address",
+                "weekdays": "Mon - Fri",
+                "sat": "Sat",
+                "sun": "Sun",
+                "onCall": "On Call"
+            }
+        },
+        "common": {
+            "title": "Common Emergencies We Treat",
+            "items": {
+                "toothache": {
+                    "title": "Severe Toothache",
+                    "desc": "Instant diagnosis and pain relief for persistent or sharp tooth pain."
+                },
+                "broken": {
+                    "title": "Broken or Chipped Teeth",
+                    "desc": "Cosmetic and structural repair to restore your smile immediately."
+                },
+                "fillings": {
+                    "title": "Lost Fillings/Crowns",
+                    "desc": "Quick replacement to protect exposed sensitive tooth tissue."
+                },
+                "abscess": {
+                    "title": "Abscess or Swelling",
+                    "desc": "Urgent treatment for infections to prevent spread and alleviate pressure."
+                },
+                "knocked": {
+                    "title": "Knocked-out Tooth",
+                    "desc": "Time-critical re-implantation procedures. Call us immediately."
+                },
+                "bleeding": {
+                    "title": "Bleeding Gums",
+                    "desc": "Treatment for acute gum injury or severe periodontal inflammation."
+                }
+            }
+        },
+        "steps": {
+            "title": "What to Do Right Now",
+            "step1": {
+                "title": "1. Call Our Emergency Line",
+                "desc": "Dial {phone}. Our team will assess your situation and prepare for your arrival."
+            },
+            "step2": {
+                "title": "2. Apply a Cold Compress",
+                "desc": "If there is swelling, apply a cold pack to the cheek. Do not apply heat or aspirin directly to the tooth."
+            },
+            "step3": {
+                "title": "3. Head to Our Location",
+                "desc": "Visit us at our central Bamberg clinic near the ZOB. Parking is available nearby."
+            }
+        },
+        "cta": {
+            "title": "Don't suffer in pain. Call our emergency team now.",
+            "btn": "Call Now:",
+            "note": "We accept all major insurances. Urgent appointments prioritized."
+        }
+    }
+}
